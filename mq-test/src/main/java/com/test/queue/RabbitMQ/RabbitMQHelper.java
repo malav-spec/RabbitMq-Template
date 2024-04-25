@@ -159,7 +159,7 @@ public class RabbitMQHelper {
 		rabbitMqHelper.getRabbitMQConnection("localhost");
 		
 		/*
-		 * Send data to EF3551 queue
+		 * Send data to a queue
 		 */
 		String sendMsg = "Hello World!";
 		rabbitMqHelper.sendData(sendMsg, "TEST");
